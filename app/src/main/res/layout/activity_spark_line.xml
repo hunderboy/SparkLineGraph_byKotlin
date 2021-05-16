@@ -32,6 +32,21 @@
         app:layout_constraintTop_toTopOf="parent"
         />
 
+    <com.majorik.sparklinelibrary.SparkLineLayout
+        android:id="@+id/sparkline_custom"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/sparkline_background"
+
+        app:s_line_color="@color/colorNavy"
+        app:s_line_thickness="4dp"
+        app:s_marker_background_color="@color/colorNavy"
+        app:s_marker_circle_style="true"
+        app:s_marker_width="8dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sparkline"
+    />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
